@@ -12,7 +12,6 @@ Visualizar datos mediante gráficos profesionales
 Enviar reportes completos por WhatsApp
 
 🏗️ Arquitectura del Sistema
-text
 RPA_Ventas/
 │
 ├── 📊 main.py                 # Script principal de ejecución
@@ -65,6 +64,8 @@ Validación de integridad de datos
 
 ✅ Mensajes formateados profesionalmente
 
+
+
 🛠️ Instalación y Configuración
 *Prerrequisitos
 Python 3.8+
@@ -72,6 +73,8 @@ Cuenta en Twilio (para WhatsApp)
 *Pasos
 Instalar dependencias requirements.txt
 ejecutar con py main.py
+
+
 
 Autor:
 Diego Rojas
