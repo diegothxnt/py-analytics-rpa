@@ -1,22 +1,23 @@
 # Py-analytics-rpa
-Descripción del Proyecto
-Sistema RPA (Robotic Process Automation) desarrollado en Python para el análisis automatizado de datos de ventas vehiculares, generación de reportes estadísticos y envío de resultados por WhatsApp.
+Sistema RPA (Robotic Process Automation) desarrollado en Python para el análisis automatizado de datos de ventas vehiculares, generación de reportes estadísticos y envío de resultados completos por WhatsApp con imágenes integradas.
 
 🎯 Objetivos
-Automatizar el proceso de análisis de datos de ventas
+✅ Automatizar el proceso de análisis de datos de ventas
 
-Generar reportes financieros y estadísticos automatizados
+✅ Generar reportes financieros y estadísticos automatizados
 
-Visualizar datos mediante gráficos profesionales
+✅ Visualizar datos mediante gráficos profesionales
 
-Enviar reportes completos por WhatsApp
+✅ Enviar reportes completos por WhatsApp con texto e imágenes
 
 🏗️ Arquitectura del Sistema
+text
 RPA_Ventas/
 │
 ├── 📊 main.py                 # Script principal de ejecución
 ├── 🔧 ventas_rpa.py          # Clase principal de análisis
 ├── 📱 whatsapp_sender.py     # Módulo de envío por WhatsApp
+├── 🖼️ img_uploader.py        # Upload automático de imágenes
 ├── 📁 graficos/              # Carpeta de gráficos generados
 ├── 📄 Ventas Fundamentos.xlsx # Datos fuente (3 hojas)
 ├── 📋 requirements.txt       # Dependencias del proyecto
@@ -25,59 +26,47 @@ RPA_Ventas/
 📈 Análisis Automatizado
 Carga inteligente de 3 hojas Excel: VENTAS, VEHICULOS, NUEVOS REGISTROS
 
-Procesamiento de 10,000+ registros
+Procesamiento de 10,000+ registros sin problemas de rendimiento
 
-Combinación automática de datos relacionados
+Combinación automática de datos relacionados entre hojas
 
-Validación de integridad de datos
+Validación de integridad de datos con reportes detallados
 
 📊 Métricas Calculadas
-✅ Precio de ventas sin IGV por sede
-
-✅ Top 5 modelos más vendidos
-
-✅ Canales con más ventas
-
-✅ Segmento de clientes por ventas
-
-✅ Conteo de clientes únicos
-
-✅ Total de ventas (con y sin IGV)
-
-✅ IGV total recaudado
-
+Métrica	Descripción
+✅ Precio de ventas sin IGV por sede	Distribución geográfica de ventas netas
+✅ Top 5 modelos más vendidos	Popularidad de vehículos por unidades
+✅ Canales con más ventas	Efectividad de canales de marketing
+✅ Segmento de clientes por ventas	Comportamiento por tipo de cliente
+✅ Conteo de clientes únicos	Base de clientes activos
+✅ Total de ventas (con y sin IGV)	Volumen de negocio total
+✅ IGV total recaudado	Impacto impositivo
 🎨 Visualizaciones Generadas
 📊 Gráfico de barras: Ventas por sede
 
-🚗 Gráfico horizontal: Top modelos
+🚗 Gráfico horizontal: Top modelos más vendidos
 
 📞 Gráfico de barras: Canales de venta
 
 👥 Gráfico circular: Segmento clientes
 
-📈 Dashboard resumen completo
+📈 Dashboard resumen: Vista general completa
 
-📱 Integración WhatsApp
-✅ Envío directo de reportes
+📱 Integración WhatsApp Avanzada
+✅ Envío directo de reportes con formato profesional
 
-✅ Configuración simplificada
+✅ Imágenes integradas en el mismo hilo de conversación
 
-✅ Mensajes formateados profesionalmente
+✅ Configuración simplificada sin complicaciones
 
+✅ Subida automática a servidores cloud (ImgBB)
 
+✅ Mensajes secuenciales con descripciones detalladas
 
 🛠️ Instalación y Configuración
-*Prerrequisitos
+Prerrequisitos
 Python 3.8+
-Cuenta en Twilio (para WhatsApp)
-*Pasos
-Instalar dependencias requirements.txt
-ejecutar con py main.py
 
+Cuenta en Twilio (para funcionalidad WhatsApp)
 
-
-Autor:
-Diego Rojas
-Universidad Rafael Urdaneta
-Proyecto III - Inteligencia Artificial
-2025
+API Key de ImgBB (gratuita, para envío de imágenes)
