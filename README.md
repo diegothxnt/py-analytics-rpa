@@ -1,72 +1,81 @@
 # Py-analytics-rpa
-Sistema RPA (Robotic Process Automation) desarrollado en Python para el análisis automatizado de datos de ventas vehiculares, generación de reportes estadísticos y envío de resultados completos por WhatsApp con imágenes integradas.
+Descripción del Proyecto
+Sistema completo de RPA (Robotic Process Automation) para análisis automatizado de datos de ventas vehiculares desarrollado en Python. Permite procesar datos masivos, generar reportes estadísticos y enviar resultados completos por WhatsApp con visualizaciones integradas.
 
-🎯 Objetivos
-✅ Automatizar el proceso de análisis de datos de ventas
+## Características Principales
+📊 Módulo de Análisis de Datos
+Carga inteligente de 3 hojas Excel automáticamente:
 
-✅ Generar reportes financieros y estadísticos automatizados
+📋 VENTAS: Transacciones detalladas
 
-✅ Visualizar datos mediante gráficos profesionales
+🚗 VEHICULOS: Catálogo de modelos
 
-✅ Enviar reportes completos por WhatsApp con texto e imágenes
+📈 NUEVOS REGISTROS: Datos actualizados
 
-🏗️ Arquitectura del Sistema
-text
-RPA_Ventas/
-│
-├── 📊 main.py                 # Script principal de ejecución
-├── 🔧 ventas_rpa.py          # Clase principal de análisis
-├── 📱 whatsapp_sender.py     # Módulo de envío por WhatsApp
-├── 🖼️ img_uploader.py        # Upload automático de imágenes
-├── 📁 graficos/              # Carpeta de gráficos generados
-├── 📄 Ventas Fundamentos.xlsx # Datos fuente (3 hojas)
-├── 📋 requirements.txt       # Dependencias del proyecto
-└── 🔐 .env                   # Configuración de Twilio (opcional)
-🚀 Características Principales
-📈 Análisis Automatizado
-Carga inteligente de 3 hojas Excel: VENTAS, VEHICULOS, NUEVOS REGISTROS
+*Procesamiento de 10,000+ registros sin pérdida de rendimiento
 
-Procesamiento de 10,000+ registros sin problemas de rendimiento
+*Combinación automática de datos relacionados entre hojas
 
-Combinación automática de datos relacionados entre hojas
+*Validación de integridad con reportes de calidad de datos
 
-Validación de integridad de datos con reportes detallados
+📈 Métricas Calculadas Automáticamente
+💰 Precio de ventas sin IGV por sede - Análisis geográfico
 
-📊 Métricas Calculadas
-Métrica	Descripción
-✅ Precio de ventas sin IGV por sede	Distribución geográfica de ventas netas
-✅ Top 5 modelos más vendidos	Popularidad de vehículos por unidades
-✅ Canales con más ventas	Efectividad de canales de marketing
-✅ Segmento de clientes por ventas	Comportamiento por tipo de cliente
-✅ Conteo de clientes únicos	Base de clientes activos
-✅ Total de ventas (con y sin IGV)	Volumen de negocio total
-✅ IGV total recaudado	Impacto impositivo
-🎨 Visualizaciones Generadas
+🚀 Top 5 modelos más vendidos - Popularidad de productos
+
+📞 Canales con más ventas - Efectividad de marketing
+
+👥 Segmento de clientes por ventas - Comportamiento del consumidor
+
+👤 Conteo de clientes únicos - Base de clientes activa
+
+💵 Total de ventas (con y sin IGV) - Volumen de negocio
+
+🏛️ IGV total recaudado - Impacto fiscal
+
+🎨 Módulo de Visualizaciones
+
 📊 Gráfico de barras: Ventas por sede
 
 🚗 Gráfico horizontal: Top modelos más vendidos
 
 📞 Gráfico de barras: Canales de venta
 
-👥 Gráfico circular: Segmento clientes
+👥 Gráfico circular: Segmento de clientes
 
-📈 Dashboard resumen: Vista general completa
+📈 Dashboard resumen: Vista ejecutiva completa
 
-📱 Integración WhatsApp Avanzada
-✅ Envío directo de reportes con formato profesional
+📱 Módulo de WhatsApp
+Envío directo de reportes con formato profesional
 
-✅ Imágenes integradas en el mismo hilo de conversación
+Imágenes integradas en el hilo de conversación
 
-✅ Configuración simplificada sin complicaciones
+Subida automática a servidores cloud (ImgBB)
 
-✅ Subida automática a servidores cloud (ImgBB)
+Mensajes secuenciales con descripciones detalladas
 
-✅ Mensajes secuenciales con descripciones detalladas
+Configuración simplificada sin complicaciones técnicas
 
-🛠️ Instalación y Configuración
-Prerrequisitos
-Python 3.8+
+💾 Módulo de Base de Datos
+*Procesamiento en memoria para máximo rendimiento
 
-Cuenta en Twilio (para funcionalidad WhatsApp)
+*Validación de datos automática
 
-API Key de ImgBB (gratuita, para envío de imágenes)
+*Manejo de errores robusto
+
+*Exportación de resultados en múltiples formatos
+
+*Instalación y Configuración
+-Requisitos del Sistema
+-Python 3.8 o superior
+
+-4GB RAM mínimo
+
+-Windows 10/11 o Linux
+
+
+*Instalación de Dependencias
+-bash
+-pip install -r requirements.txt
+*Ejecución del Sistema
+-python main.py
