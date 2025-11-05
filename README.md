@@ -75,7 +75,31 @@ Configuración simplificada sin complicaciones técnicas
 
 
 *Instalación de Dependencias
+
 -bash
+
 -pip install -r requirements.txt
+
 *Ejecución del Sistema
+
 -python main.py
+
+Tecnologías Utilizadas
+
+🐍 Python 3.8+ - Lenguaje principal
+
+📊 Pandas - Procesamiento de datos
+
+🎨 Matplotlib/Seaborn - Visualizaciones
+
+📱 Twilio API - Comunicación WhatsApp
+
+☁️ ImgBB API - Almacenamiento cloud
+
+📄 OpenPyXL - Manejo de Excel
+
+Elaborado por Diego Rojas
+Materia: Inteligencia Artificial
+Universidad Rafael Urdaneta - 2025
+
+
